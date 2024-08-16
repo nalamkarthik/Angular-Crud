@@ -1,0 +1,17 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white; /* Ensure the text is readable against the blue background */
+  height: 60vh; /* 60% of the viewport height */
+  width: 100%; /* Full width of the container */
+}
+
+.home-container img {
+  width: 30%; /* Decrease the size of the image */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 20px; /* Add some spacing between the text and the image */
+}
+
